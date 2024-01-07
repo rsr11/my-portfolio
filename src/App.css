@@ -1,0 +1,73 @@
+
+.bgPattern{
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+  background-size: 10px 10px;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background: #F9F5EB;
+}
+.font-El-Messiri{
+    font-family: 'El Messiri', sans-serif;
+}
+
+@keyframes updown{
+        0%{
+          transform: translateY(0px);
+        }
+        50%{
+          transform: translateY(-10px);
+        }
+        100%{
+          transform: translateY(0px);
+        }
+}
+
+.arrow{
+  animation-name: updown;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes inout{
+  0%{
+   
+    transform: rotate(20deg);
+    margin-top: 0%;
+  }
+  50%{
+  
+    transform: rotate(45deg);
+    margin-top: 2%;
+  }
+  100%{
+    
+    transform: rotate(20deg);
+    margin-top: 0%;
+  }
+}
+
+.twinkle{
+  animation-name: inout;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+
+#aboutDetail span{
+  color:black;
+  font-weight:600;
+}
+
+/* #Skills span{
+  padding: 0.5rem;
+  background-color: black;
+  color: #F9F5EB;
+} */
