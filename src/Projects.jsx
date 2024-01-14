@@ -23,7 +23,7 @@ const ProjectCollection = ()=>{
     <div className='gap-5 mt-10 flex overflow-hidden lg:flex-row flex-col'>
         <img src={SkillTyroImg}  onClick={()=>{window.open("https://skilltyro.com/")}} alt="" className='shadow-xl lg:w-[25vw] h-[35vh] rounded-2xl transition-all hover:shadow-black ' />
         <img src={GymWebImg} alt="" onClick={()=>{window.open("https://gym-temp-lt92cvq6d-rsr11.vercel.app/")}} className='shadow-xl rounded-2xl lg:w-[25vw] h-[35vh] transition-all hover:shadow-black ' />
-        <img src={Nikky} alt="" className='shadow-xl lg:w-[25vw] h-[35vh]  rounded-2xl transition-all hover:shadow-black '  />
+        <img src={Nikky} alt="" onClick={()=>{window.open("https://nikky-e-commerce-nqq1.vercel.app/")}} className='shadow-xl lg:w-[25vw] h-[35vh]  rounded-2xl transition-all hover:shadow-black '  />
     </div>
 
     <div className='gap-5 mt-10 flex overflow-hidden lg:flex-row flex-col'>
