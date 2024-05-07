@@ -16,7 +16,7 @@ const About = () => {
       <section className='flex flex-col md:flex-row mt-20' >
         <section className='lg:w-1/2 w-full'>
           <h1 className='text-3xl font-bold mb-5' >Want to know me!</h1>
-          <p className='text-lg text-slate-600' id='aboutDetail' >I am <span>19-year-old</span> Computer Application student and <span>Full-stack Web developer</span>,I am actively seeking opportunities to broaden my skills and gain hands-on experience in web development.Here are some work in my <span>project</span> section. <br /> <br /> With a keen interest in front-end development and web designing, I am passionate about creating visually appealing and user-friendly websites. want to connect me free to <span>DM</span> in any social media platform. <br /> <br />
+          <p className='text-lg text-slate-600' id='aboutDetail' >I am <span>20-year-old</span> Computer Application student and <span>Full-stack Web developer</span>,I am actively seeking opportunities to broaden my skills and gain hands-on experience in web development.Here are some work in my <span>project</span> section. <br /> <br /> With a keen interest in front-end development and web designing, I am passionate about creating visually appealing and user-friendly websites. want to connect me free to <span>DM</span> in any social media platform. <br /> <br />
           I'm open to <span>Job opportunities</span> where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <span>contact me</span>. <br /> <span className='cursor-pointer underline' onClick={()=>{window.open(resumePdf)}} >Here my CV.</span>
           </p>
           <button className='py-4 px-10 text-lg font-semibold bg-violet-700 hover:bg-violet-600 rounded-lg mt-8 text-white'><a href="#contact">Contect</a></button>
@@ -28,14 +28,15 @@ const About = () => {
                 <span className={SkillsSpan}>HTML</span>
                 <span className={SkillsSpan}>CSS</span>
                 <span className={SkillsSpan}>JavaScript</span>
+                <span className={SkillsSpan}>TypeScript</span>
                 <span className={SkillsSpan}>React</span>
                 <span className={SkillsSpan}>TailwindCSS</span>
                 <span className={SkillsSpan}>Responsive Design</span>
-                <span className={SkillsSpan}>Git basic</span>
-                <span className={SkillsSpan}>PHP basic</span>
-                <span className={SkillsSpan}>SEO</span>
-                <span className={SkillsSpan}>Node intermediate</span>
-                <span className={SkillsSpan}>Express intermediate</span>
+                <span className={SkillsSpan}>Git</span>
+                <span className={SkillsSpan}>MySQL</span>
+                <span className={SkillsSpan}>Github</span>
+                <span className={SkillsSpan}>Node</span>
+                <span className={SkillsSpan}>Express</span>
                 <span className={SkillsSpan}>MongoDb</span>
                 <span className={SkillsSpan}>Figma</span>
             </section>

@@ -21,14 +21,24 @@ const ProjectCollection = ()=>{
     return <>
     
     <div className='gap-5 mt-10 flex overflow-hidden lg:flex-row flex-col'>
-        <img src={SkillTyroImg}  onClick={()=>{window.open("https://skilltyro.com/")}} alt="" className='shadow-xl lg:w-[25vw] h-[35vh] rounded-2xl transition-all hover:shadow-black ' />
-        <img src={GymWebImg} alt="" onClick={()=>{window.open("https://gym-temp-lt92cvq6d-rsr11.vercel.app/")}} className='shadow-xl rounded-2xl lg:w-[25vw] h-[35vh] transition-all hover:shadow-black ' />
-        <img src={Nikky} alt="" onClick={()=>{window.open("https://nikky-e-commerce-nqq1.vercel.app/")}} className='shadow-xl lg:w-[25vw] h-[35vh]  rounded-2xl transition-all hover:shadow-black '  />
+      <section className='border-2 border-black p-3 overflow-hidden cursor-pointer' >
+        <img src={SkillTyroImg}  onClick={()=>{window.open("https://skilltyro.com/")}} alt="" className='shadow-xl lg:w-[25vw] h-[35vh] rounded-2xl transition-all hover:scale-110' />
+        </section>
+        <section className='border-2 border-black p-3 overflow-hidden cursor-pointer'>
+        <img src={GymWebImg} alt="" onClick={()=>{window.open("https://gym-temp-lt92cvq6d-rsr11.vercel.app/")}} className='shadow-xl rounded-2xl lg:w-[25vw] h-[35vh] transition-all hover:scale-110 ' />
+        </section>
+        <section className='border-2 border-black p-3 overflow-hidden cursor-pointer'>
+        <img src={Nikky} alt="" onClick={()=>{window.open("https://nikky-e-commerce-nqq1.vercel.app/")}} className='shadow-xl lg:w-[25vw] h-[35vh]  rounded-2xl transition-all hover:scale-110'  />
+        </section>
     </div>
 
     <div className='gap-5 mt-10 flex overflow-hidden lg:flex-row flex-col'>
-        <img src={WeatherAppImg}  onClick={()=>{window.open("https://rsr11.github.io/weatherinfo/")}} alt="" className='shadow-xl lg:w-[25vw] h-[35vh] rounded-2xl transition-all hover:shadow-black ' />
-        <img src={AccuEntryImg} alt="" onClick={()=>{window.open("https://6599808f9ed589eed2611bc6--silver-bombolone-10a0e6.netlify.app/")}} className='shadow-xl rounded-2xl lg:w-[25vw] h-[35vh] transition-all hover:shadow-black ' />
+      <section className='border-2 border-black p-3 overflow-hidden cursor-pointer'>
+        <img src={WeatherAppImg}  onClick={()=>{window.open("https://rsr11.github.io/weatherinfo/")}} alt="" className='shadow-xl lg:w-[25vw] h-[35vh] rounded-2xl transition-all hover:scale-110' />
+        </section>
+        <section className='border-2 border-black p-3 overflow-hidden cursor-pointer'>
+        <img src={AccuEntryImg} alt="" onClick={()=>{window.open("https://6599808f9ed589eed2611bc6--silver-bombolone-10a0e6.netlify.app/")}} className='shadow-xl rounded-2xl lg:w-[25vw] h-[35vh] transition-all hover:scale-110' />
+        </section>
     </div>
     </>
 }
