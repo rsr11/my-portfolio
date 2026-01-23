@@ -1,4 +1,3 @@
-import React from 'react'
 import SkillTyroImg from "./assets/SkillTyro_thumnail.png"
 import WeatherAppImg from "./assets/weatherApp_thumnail.png"
 import GymWebImg from "./assets/GymBro_thumbnail.png"
@@ -14,6 +13,21 @@ const Heading = ()=>{
       <p className='text-center text-xl lg:mx-24 text-slate-600'>Here you will find some of the personal and clients projects that I created. </p>
       
     </>
+}
+
+
+const ProjectCard = ()=>{
+  return <>
+     <section className="flex w-full mt-10 gap-10" >
+        <img src={SkillTyroImg} className="w-[50%]" alt="" />
+
+        <section>
+          <h1 className="mt-5 text-xl font-bold" >Skill Tyro</h1>
+          <p></p>
+        </section>
+     </section>
+    
+  </>
 }
 
 
@@ -54,6 +68,7 @@ const Projects = () => {
 <>
 <section id='project' className='flex flex-col items-center mt-20 border-b-2 border-black pb-10'>
     <Heading/>
+    <ProjectCard/>
     <ProjectCollection/>
       
 </section>
