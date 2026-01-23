@@ -1,10 +1,10 @@
-import React from 'react'
+// import React from 'react'
 import ProfilePic from "../assets/profilePici.png";
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { IoArrowUp } from 'react-icons/io5';
 import { FaFileDownload } from 'react-icons/fa';
 import BitmojiProfile from "../assets/bitmojiProfile.png"
-import GreenWavy from "../assets/wavy-design.svg";
+// import GreenWavy from "../assets/wavy-design.svg";
 import {motion} from "framer-motion";
 
 
@@ -18,7 +18,7 @@ const HeroSection = () => {
     <section className='bg-[#121212] sm:max-w-[400px] sm:min-h-[500px] rounded-2xl overflow-hidden flex sm:block justify-between relative border-[5px] border-[#212121] text-white' >
       <section className='flex flex-col sm:flex-col-reverse p-3 pb-1 justify-between'>
       {/* <section></section> */}
-      <img src={ProfilePic} className='rounded-full  sm:size-[70%] mx-auto border-4 border-[#08CB00]' alt="" />
+      <img src={ProfilePic} className='rounded-full sm:size-[70%] mx-auto border-4 border-[#08CB00]' alt="" />
       <section className='flex gap-3 m-2' >
         <div className='bg-[#535353] text-black p-1 rounded-full' ><FiLinkedin size={15} /></div>
         <div className='bg-[#535353] text-black p-1 rounded-full'> <FiGithub size={15} /> </div>
@@ -27,15 +27,15 @@ const HeroSection = () => {
       </section>
 
     <section className='g-red-400 sm:px-4 sm:flex sm:flex-col items-start sm:absolute bottom-0 bg-r-400 sm:w-full' >
-        <div className='text-3xl sm:px-0 sm:text-6xl sm:font-medium sm:text-start font-bold p-2' >
-        <h1 className='' >Hey,I'm</h1>
+        <div className='text-4xl sm:px-0 sm:text-6xl sm:font-medium sm:text-start font-bold p-2' >
+        <h1 className='' >Hey, I'm</h1>
         <h2>Rajeshwar</h2>
         </div>
         <p className='text-[11px] w-56 sm:w-full px-1 sm:pr-6 sm:text-sm sm:font-thin sm:mt-3 text-start border-b border-b-[#212121] pb-1 font-thin'>I like developing websites and web app for small startups and businesses</p>
         <section className='py-3 flex sm:mx-0 w-full gap-2'>
-            <button className='bg-[#08CB00] sm:text-sm text-black p-1 sm:p-3  rounded-full rotate-45' > <IoArrowUp size={15} /> </button>
+            <button className='bg-[#08CB00] sm:text-sm text-black p-1 sm:p-3 size rounded-full rotate-45' > <IoArrowUp size={15} /> </button>
             <button className='px-3 sm:px-4 py-1 sm:py-2 text-[10px] sm:text-sm text-black rounded-xl bg-[#08CB00]' > Let's Talk </button>
-            <button className='px-3 sm:px-4 py-1 sm:py-2 flex items-center sm:text-sm gap-1 text-[10px] rounded-xl bg-[]' > <FaFileDownload />  Download Resume </button>
+            <button className='px-3 sm:px-4 py-1 sm:py-2 flex items-center sm:text-sm gap-1 text-[10px] rounded-xl bg-[]' > <FaFileDownload /> Resume </button>
         </section>
     </section>     
     </section>

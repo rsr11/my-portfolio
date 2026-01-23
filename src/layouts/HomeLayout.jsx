@@ -1,8 +1,8 @@
-import React from 'react'
+// import React from 'react'
 import HeroSection from '../componets/HeroSection'
 import { MdDarkMode } from 'react-icons/md'
 import { FaSun } from 'react-icons/fa'
-import { AiFillHome } from 'react-icons/ai'
+// import { AiFillHome } from 'react-icons/ai'
 
 const HomeLayout = () => {
   return (
