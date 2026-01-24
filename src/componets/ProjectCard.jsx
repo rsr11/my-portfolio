@@ -9,8 +9,8 @@ const ProjectCard = ({title,techStack, description,imgLink, gitLink, projectLink
          <section>
          </section>
          <section>
-           <h1 className="text-xl font-bold" >{title}</h1>
-           <p className="text-xs mt-2 flex gap-2" >
+           <h1 className="text-xl sm:text-4xl font-bold" >{title}</h1>
+           <p className="text-xs mt-2 flex flex-wrap gap-2" >
             {techStack?.map((value)=>{
               return <span key={value} className="py-1 border rounded-lg px-2" >{value}</span>
 
@@ -20,11 +20,11 @@ const ProjectCard = ({title,techStack, description,imgLink, gitLink, projectLink
            </p>
            <div className="overflow-hidden" >
             <img src={imgLink} className=" mt-2 w-full" alt="" />
-            </div>
             <p className="mt-2" >{description}</p>
-           <div className="flex gap-5 mt-3 ml-2 text-xs" >
-            <button className="flex items-center gap-1" > <FiGithub/> Github</button>
-            <button className="flex items-center bg-[#08CB00] gap-1 text-black py-[3px] px-3 rounded-lg" >Link <IoArrowUp size={15} className="rotate-45" /> </button>
+            </div>
+           <div className="flex gap-5 mt-3 ml-2 text-" >
+            <button className="flex items-center py-[3px] px-2 gap-1" > <FiGithub/> Github</button>
+            <button className="flex items-center bg-[#08CB00] gap-1 text-black py-[3px] px-2 rounded-lg" >Link <IoArrowUp size={15} className="rotate-45" /> </button>
            </div> 
          </section>
        </section>

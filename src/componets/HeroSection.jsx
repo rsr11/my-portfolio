@@ -5,7 +5,7 @@ import { IoArrowUp } from 'react-icons/io5';
 import { FaFileDownload } from 'react-icons/fa';
 import BitmojiProfile from "../assets/bitmojiProfile.png"
 // import GreenWavy from "../assets/wavy-design.svg";
-import {motion} from "framer-motion";
+import {motion} from "motion/react";
 
 
 // #535353 - 4 grey
@@ -65,7 +65,7 @@ const HeroSection = () => {
   {/* Wave 1 */}
   <motion.path
     fill="#5af50a"
-    d="M0 384L113 407L225 375L338 454L450 421L563 422L675 342L788 375L900 373L900 601L0 601Z"
+    m="M0 384L113 407L225 375L338 454L450 421L563 422L675 342L788 375L900 373L900 601L0 601Z"
     animate={{
       d: [
         "M0 384L113 407L225 375L338 454L450 421L563 422L675 342L788 375L900 373L900 601L0 601Z",
@@ -83,7 +83,7 @@ const HeroSection = () => {
   {/* Wave 2 */}
   <motion.path
     fill="#1ed654"
-    d="M0 489L113 399L225 496L338 463L450 402L563 424L675 404L788 485L900 499L900 601L0 601Z"
+    m="M0 489L113 399L225 496L338 463L450 402L563 424L675 404L788 485L900 499L900 601L0 601Z"
     animate={{
       d: [
         "M0 489L113 399L225 496L338 463L450 402L563 424L675 404L788 485L900 499L900 601L0 601Z",
@@ -101,7 +101,7 @@ const HeroSection = () => {
   {/* Wave 3 */}
   <motion.path
     fill="#00b66d"
-    d="M0 472L113 482L225 526L338 474L450 459L563 459L675 515L788 453L900 520L900 601L0 601Z"
+    m="M0 472L113 482L225 526L338 474L450 459L563 459L675 515L788 453L900 520L900 601L0 601Z"
     animate={{
       d: [
         "M0 472L113 482L225 526L338 474L450 459L563 459L675 515L788 453L900 520L900 601L0 601Z",

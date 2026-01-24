@@ -3,6 +3,8 @@ import HeroSection from '../componets/HeroSection'
 import { MdDarkMode } from 'react-icons/md'
 import { FaSun } from 'react-icons/fa'
 import { Outlet } from 'react-router-dom'
+import Footer from '../componets/Footer'
+import Contact from '../Contact'
 // import { AiFillHome } from 'react-icons/ai'
 
 const HomeLayout = () => {
@@ -25,6 +27,8 @@ const HomeLayout = () => {
        </nav>
 
        <Outlet/>
+       <Contact/>
+       <Footer/>
     </main>
   )
 }
