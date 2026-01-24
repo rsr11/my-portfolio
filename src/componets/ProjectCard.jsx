@@ -1,7 +1,7 @@
-import React from 'react'
 import { IoArrowUp } from "react-icons/io5";
 
 import { FiGithub } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({title,techStack, description,imgLink, gitLink, projectLink}) => {
   return (
@@ -23,7 +23,8 @@ const ProjectCard = ({title,techStack, description,imgLink, gitLink, projectLink
             <p className="mt-2" >{description}</p>
             </div>
            <div className="flex gap-5 mt-3 ml-2 text-" >
-            <button className="flex items-center py-[3px] px-2 gap-1" > <FiGithub/> Github</button>
+            <button className="flex items-center py-[3px] px-2 gap-1" >
+            <Link to={gitLink} > <FiGithub/></Link>Github</button>
             <button className="flex items-center bg-[#08CB00] gap-1 text-black py-[3px] px-2 rounded-lg" >Link <IoArrowUp size={15} className="rotate-45" /> </button>
            </div> 
          </section>

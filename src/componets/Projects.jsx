@@ -2,6 +2,7 @@
 import SkillTyroImg from "../assets/SkillTyro_thumnail.png";
 import ProjectCard from "./ProjectCard"
 import productrImg from "../assets/ProductrImg.png";
+import FinPocketImg from "../assets/finPocket_Img.png";
 
 // import name from "../" 
 
@@ -16,14 +17,27 @@ const Projects = () => {
         imgLink={SkillTyroImg}
         techStack={[`HTML`,`CSS`,`PHP`,`JS`]}
         description={"Developed a responsive website for a Hyderabad-based medical education company. Implemented user-friendly UI for course listings and enrollment."}
-        gitLink={"fsdd"}
-        projectLink={"fsdfs"} />
+        gitLink={"https://github.com/rsr11/skill-Tyro"}
+        projectLink={"https://www.skilltyro.com/"} 
+        />
 
         <ProjectCard
           title={"Productr"}
           imgLink={productrImg}
+          gitLink={`https://github.com/rsr11/Productr`}
+          projectLink={`http://productrsr.netlify.app/`}
           techStack={[`React.js`,`React-query`,`Cloudnary`,`Node.js`,`Express.js`,`MongoDb`,`Redux`,`JWT`]}
-          description={"Productr is product uploading platfrom for e-commerce site, here you can perform CRUD on your product, switch to upload or not , we authorize the user with OTP verification with the help of Nodemailer and Twilio, And store the images in cloundnary."} />
+          description={"Productr is product uploading platfrom for e-commerce site, here you can perform CRUD on your product, switch to upload or not , we authorize the user with OTP verification with the help of Nodemailer and Twilio, And store the images in cloundnary."} 
+          />
+
+          <ProjectCard
+          title={"FinPocket"}
+          imgLink={FinPocketImg}
+          gitLink={`https://github.com/rsr11/FinPocket-backend`}
+          techStack={[`React.js`,`React-query`,`Rechart.js`,`Node.js`,`Express.js`,`MongoDb`,`Redux`,`JWT`]}
+          description={`Developing a personal finance dashboard to help students and professionals analyze expenses, track monthly
+savings, set payment reminders, and view historical data.`}
+          />
 
         </section>
 

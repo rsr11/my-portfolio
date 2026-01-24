@@ -6,6 +6,7 @@ import { FaFileDownload } from 'react-icons/fa';
 import BitmojiProfile from "../assets/bitmojiProfile.png"
 // import GreenWavy from "../assets/wavy-design.svg";
 import {motion} from "motion/react";
+import resumePdf from "../assets/resume_2026.pdf";
 
 
 // #535353 - 4 grey
@@ -20,8 +21,8 @@ const HeroSection = () => {
       {/* <section></section> */}
       <img src={ProfilePic} className='rounded-full sm:size-[70%] mx-auto border-4 border-[#08CB00]' alt="" />
       <section className='flex gap-3 m-2' >
-        <div className='bg-[#535353] text-black p-1 rounded-full' ><FiLinkedin size={15} /></div>
-        <div className='bg-[#535353] text-black p-1 rounded-full'> <FiGithub size={15} /> </div>
+        <div className='bg-[#535353] text-black hover:bg-white cursor-pointer p-1 rounded-full' ><FiLinkedin size={15} /></div>
+        <div className='bg-[#535353] text-black hover:bg-white cursor-pointer p-1 rounded-full'> <FiGithub size={15} /> </div>
       </section>
       {/* <img className='absolute h-52 sm:w-[400px] sm:h-[450px] -bottom-14 sm:bottom-0 -left-16 sm:left-16' src={ProfilePic} alt="" /> */}
       </section>
@@ -35,7 +36,7 @@ const HeroSection = () => {
         <section className='py-3 flex sm:mx-0 w-full gap-2'>
             <button className='bg-[#08CB00] sm:text-sm text-black p-1 sm:p-3 size rounded-full rotate-45' > <IoArrowUp size={15} /> </button>
             <button className='px-3 sm:px-4 py-1 sm:py-2 text-[10px] sm:text-sm text-black rounded-xl bg-[#08CB00]' > Let's Talk </button>
-            <button className='px-3 sm:px-4 py-1 sm:py-2 flex items-center sm:text-sm gap-1 text-[10px] rounded-xl bg-[]' > <FaFileDownload /> Resume </button>
+            <button type="button" onClick={()=>{window.open(resumePdf)}} className='px-3 sm:px-4 py-1 sm:py-2 flex items-center sm:text-sm gap-1 text-[10px] rounded-xl bg-[]' > <FaFileDownload /> Resume </button>
         </section>
     </section>     
     </section>
