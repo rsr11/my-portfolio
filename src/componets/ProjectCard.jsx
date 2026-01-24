@@ -1,0 +1,34 @@
+import React from 'react'
+import { IoArrowUp } from "react-icons/io5";
+
+import { FiGithub } from "react-icons/fi";
+
+const ProjectCard = ({title,techStack, description,imgLink, gitLink, projectLink}) => {
+  return (
+    <section className="mt-5 mx-5" >
+         <section>
+         </section>
+         <section>
+           <h1 className="text-xl font-bold" >{title}</h1>
+           <p className="text-xs mt-2 flex gap-2" >
+            {techStack?.map((value)=>{
+              return <span key={value} className="py-1 border rounded-lg px-2" >{value}</span>
+
+            })}
+            {/* <span className="py-1 border rounded-lg px-2" >CSS</span>
+            <span className="py-1 border rounded-lg px-2" >PHP</span> */}
+           </p>
+           <div className="overflow-hidden" >
+            <img src={imgLink} className=" mt-2 w-full" alt="" />
+            </div>
+            <p className="mt-2" >{description}</p>
+           <div className="flex gap-5 mt-3 ml-2 text-xs" >
+            <button className="flex items-center gap-1" > <FiGithub/> Github</button>
+            <button className="flex items-center bg-[#08CB00] gap-1 text-black py-[3px] px-3 rounded-lg" >Link <IoArrowUp size={15} className="rotate-45" /> </button>
+           </div> 
+         </section>
+       </section>
+  )
+}
+
+export default ProjectCard

@@ -54,7 +54,7 @@ const HeroSection = () => {
                 </div>
             </div>
         </section>
-        <h1 className='mt-5 text-white text-2xl mb-32 sm:text-6xl font-semibold' >Let’s build a  <span className='text-[#08CB00] bg-[#121212] px-2 py-1 rounded-lg' >website</span> <br /> people will remember</h1>
+        <h1 className='mt-5 text-white text-2xl mb-32 sm:text-6xl font-semibold' >Let’s build a  <span className='text-[#08CB00] bg-[#121212] px-2 py-1  rounded-lg' >website</span> <br /> people will remember</h1>
         {/* <img src={GreenWavy} className='absolute bottom-0 right-0' alt="" /> */}
        <motion.svg
   id="visual"

@@ -1,7 +1,7 @@
 
 import Header from './Header';
 // import HeroSection from './HeroSection';
-import Projects from './Projects';
+// import Projects from './Projects';
 import About from './About';
 import Contact from './Contact';
 import Footer from './Footer';
@@ -10,6 +10,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomeLayout from './layouts/HomeLayout';
 import Home from './componets/Home';
+import Projects from './componets/Projects';
 
 
 
@@ -24,7 +25,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<HomeLayout/>}>
-      <Route index element={<Home/>} />
+      <Route index element={<Projects/>} />
       {/* <Route path="skills" element={<} */}
       </Route>
     </Routes>
