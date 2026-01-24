@@ -1,7 +1,7 @@
 // import React from 'react'
 import SkillTyroImg from "../assets/SkillTyro_thumnail.png";
 import ProjectCard from "./ProjectCard"
-import productrImg from "../assets/productrImg.png";
+import productrImg from "../assets/ProductrImg.png";
 
 // import name from "../" 
 
