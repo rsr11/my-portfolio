@@ -7,10 +7,6 @@ import Projects from './componets/Projects';
 
 function App() {
    
-
-  // const [isMenuOpen, setMenuOpen] = useState(false);
-
-
   return (
     <>
     <BrowserRouter>
@@ -26,15 +22,3 @@ function App() {
 }
 
 export default App;
-//  <div className='overflow-hidden' >
-//  <div className={`md:max-w-[80vw] ${isMenuOpen ? "h-[50vh] overflow-hidden": "overflow-auto"} max-w-[90vw] mx-auto mb-[30vh]`}>
-//  <Header isMenuOpen={isMenuOpen} setMenuOpen={setMenuOpen} />
-//  <HeroSection/>
-//  <About/>
-//  <Projects/>
-//  <Contact/>
-//  </div>
-//  {
-//   !isMenuOpen && <Footer/>
-//  }
-//  </div>

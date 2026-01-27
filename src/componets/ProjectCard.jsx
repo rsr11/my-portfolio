@@ -23,9 +23,9 @@ const ProjectCard = ({title,techStack, description,imgLink, gitLink, projectLink
             <p className="mt-2" >{description}</p>
             </div>
            <div className="flex gap-5 mt-3 ml-2 text-" >
-            <button className="flex items-center py-[3px] px-2 gap-1" >
-            <Link to={gitLink} > <FiGithub/></Link>Github</button>
-            <button className="flex items-center bg-[#08CB00] gap-1 text-black py-[3px] px-2 rounded-lg" >Link <IoArrowUp size={15} className="rotate-45" /> </button>
+            <a href={gitLink} className="flex items-center py-[3px] px-2 gap-1" >
+             <FiGithub/>Github</a>
+            <a href={projectLink} className="flex items-center bg-[#08CB00] gap-1 text-black py-[3px] px-2 rounded-lg" >Link <IoArrowUp size={15} className="rotate-45" /> </a>
            </div> 
          </section>
        </section>
