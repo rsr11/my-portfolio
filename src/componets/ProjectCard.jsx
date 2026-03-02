@@ -1,7 +1,7 @@
 import { IoArrowUp } from "react-icons/io5";
 
 import { FiGithub } from "react-icons/fi";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const ProjectCard = ({title,techStack, description,imgLink, gitLink, projectLink}) => {
   return (
@@ -9,10 +9,10 @@ const ProjectCard = ({title,techStack, description,imgLink, gitLink, projectLink
          <section>
          </section>
          <section>
-           <h1 className="text-xl sm:text-4xl font-bold" >{title}</h1>
+           <h1 className="text-xl font-clash sm:text-4xl font-bold" >{title}</h1>
            <p className="text-xs mt-2 flex flex-wrap gap-2" >
             {techStack?.map((value)=>{
-              return <span key={value} className="py-1 border rounded-lg px-2" >{value}</span>
+              return <span key={value} className="py-1 font-clash border rounded-lg px-2" >{value}</span>
 
             })}
             {/* <span className="py-1 border rounded-lg px-2" >CSS</span>
@@ -20,7 +20,7 @@ const ProjectCard = ({title,techStack, description,imgLink, gitLink, projectLink
            </p>
            <div className="overflow-hidden" >
             <img src={imgLink} className=" mt-2 w-full" alt="" />
-            <p className="mt-2" >{description}</p>
+            <p className="mt-2 font-clash" >{description}</p>
             </div>
            <div className="flex gap-5 mt-3 ml-2 text-" >
             <a href={gitLink} className="flex items-center py-[3px] px-2 gap-1" >

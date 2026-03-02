@@ -127,3 +127,42 @@
     background-position: 300% 50%;
   }
 }
+
+
+html{
+  /* Width of scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: #111;   /* background behind scrollbar */
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background: rgb(21, 225, 21);   /* scrollbar color */
+  border-radius: 10px;
+}
+
+/* Hover effect */
+::-webkit-scrollbar-thumb:hover {
+  background: darkgreen;
+}
+}
+
+
+
+.font-tanker{
+  font-family: 'Tanker', sans-serif;
+}
+
+.font-clash{
+  font-family: 'Clash Grotesk', sans-serif;
+}
+
+
+/* @theme{
+  --font
+} */

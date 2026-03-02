@@ -29,11 +29,11 @@ const HeroSection = () => {
 
     <section className='g-red-400 sm:px-4 sm:flex sm:flex-col items-start sm:absolute bottom-0 bg-r-400 sm:w-full' >
         <div className='text-4xl sm:px-0 sm:text-6xl sm:font-medium sm:text-start font-bold p-2' >
-        <h1 className='' >Hey, I'm</h1>
-        <h2>Rajeshwar</h2>
+        <h1 className='font-tanker' >Hey, I'm</h1>
+        <h2 className="font-tanker" >Rajeshwar</h2>
         </div>
-        <p className='text-[11px] w-56 sm:w-full px-1 sm:pr-6 sm:text-sm sm:font-thin sm:mt-3 text-start border-b border-b-[#212121] pb-1 font-thin'>I like developing websites and web app for small startups and businesses</p>
-        <section className='py-3 flex sm:mx-0 w-full gap-2'>
+        <p className='text-[11px] w-56 sm:w-full font-clash px-1 sm:pr-6 sm:text-lg sm:font-tin sm:mt-3 text-start border-b border-b-[#212121] pb-1 font-thin'>I like developing websites and web app for small startups and businesses</p>
+        <section className='py-3 font-clash flex sm:mx-0 w-full gap-2'>
             <button className='bg-[#08CB00] sm:text-sm text-black p-1 sm:p-3 size rounded-full rotate-45' > <IoArrowUp size={15} /> </button>
             <button className='px-3 sm:px-4 py-1 sm:py-2 text-[10px] sm:text-sm text-black rounded-xl bg-[#08CB00]' > Let's Talk </button>
             <button type="button" onClick={()=>{window.open(resumePdf)}} className='px-3 sm:px-4 py-1 sm:py-2 flex items-center sm:text-sm gap-1 text-[10px] rounded-xl bg-[]' > <FaFileDownload /> Resume </button>
@@ -41,7 +41,7 @@ const HeroSection = () => {
     </section>     
     </section>
   
-    <section className='pageBg4 p-3 relative rounded-xl w-full'>
+    <section className='pageBg4 font-clash p-3 relative rounded-xl w-full'>
      <section>
         <section className='flex items-center gap-2 text-[white]'>
             {/* <div> */}

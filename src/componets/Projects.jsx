@@ -9,7 +9,7 @@ import FinPocketImg from "../assets/finPocket_Img.png";
 const Projects = () => {
   return (
     <section className='text-white' >
-       <h1 className='text-center mt-10 text-2xl sm:text-4xl sm:mt-20 sm:font-semibold' >Here Are Some Of My Projects</h1>
+       <h1 className='text-center mt-10 text-2xl sm:text-5xl font-tanker line-clamp-4 sm:mt-20 sm:font-semibold flex items-center gap-5 justify-center' >Here Are Some Of My Projects <img src="/images/fire-icon.png" className="object-contain w-20" alt="" /> </h1>
 
        <section className="sm:grid sm:grid-cols-2 sm:mt-20" >
        <ProjectCard 
