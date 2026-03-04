@@ -5,6 +5,7 @@ import HeroSection from '../componets/HeroSection'
 import { Outlet } from 'react-router-dom'
 import Footer from '../componets/Footer'
 import Contact from '../Contact'
+import Cards from '../componets/Cards'
 // import KickStartLoader from '../componets/KickStartLoader'
 // import { AiFillHome } from 'react-icons/ai'
 
@@ -29,6 +30,7 @@ const HomeLayout = () => {
        </nav> */}
 
        <Outlet/>
+       <Cards/>
        <Contact/>
        <Footer/>
     </main>
