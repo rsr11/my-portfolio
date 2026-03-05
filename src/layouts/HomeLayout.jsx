@@ -30,7 +30,7 @@ const HomeLayout = () => {
        </nav> */}
 
        <Outlet/>
-       <Cards/>
+       {/* <Cards/> */}
        <Contact/>
        <Footer/>
     </main>

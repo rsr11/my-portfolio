@@ -20,14 +20,17 @@ const HeroSection = () => {
     <section className='bg-[#121212] sm:max-w-[400px] sm:min-h-[500px] rounded-2xl overflow-hidden flex sm:block justify-between relative border-[5px] border-[#212121] text-white' >
       <section className='flex flex-col sm:flex-col-reverse p-3 pb-1 justify-between'>
       {/* <section></section> */}
-      <img src={ProfilePic} className='rounded-full sm:size-[70%] mx-auto border-4 border-[#08CB00]' alt="" /> 
+      <section className="relative isolate" >
+      <div className="absolute w-[60%] aspect-square -z-10 bg-[#08CB00] blur-xl top-0 right-[50%] translate-x-[50%] rounded-full " ></div>
+      <img src={ProfilePic} className='rounded-full relative z-10 sm:size-[60%] object-contain mx-auto border-4 border-[#08CB00]' alt="" /> 
+      </section>
       <section className='flex gap-3 m-2' >
         <div className='bg-[#535353] text-black hover:bg-white cursor-pointer p-1 rounded-full' > <a href={`https://www.linkedin.com/in/rajeshwarsingh11/`} ><FiLinkedin size={15} /> </a> </div>
         <div className='bg-[#535353] text-black hover:bg-white cursor-pointer p-1 rounded-full'> <a href={`https://github.com/rsr11`} ><FiGithub size={15} /></a> </div>
       </section>
       </section>
 
-    <section className='g-red-400 sm:px-4 sm:flex sm:flex-col items-start sm:absolute bottom-0 bg-r-400 sm:w-full' >
+    <section className='g-red-400 sm:px-4 sm:flex sm:flex-col items-start sm:absolue bottom-0 bg-r-400 sm:w-full' >
         <div className='text-4xl sm:px-0 sm:text-6xl sm:font-medium sm:text-start font-bold p-2' >
         <h1 className='font-tanker' >Hey, I'm</h1>
         <h2 className="font-tanker" >Rajeshwar</h2>
@@ -48,14 +51,14 @@ const HeroSection = () => {
                 <img src={BitmojiProfile} className='size-10 sm:size-20 bg-[#121212] rounded-full p-2' alt="" />
             {/* </div> */}
             <div className='text-xs' >
-                <h6 className='sm:font-semibold sm:text-lg' >Rajeshwar Singh</h6>
-                <div className='flex text-[10px] gap-3' >
-                <p className='py-[2px] mt-[2px] bg-[#535353] border-[#535353] text-black border px-1 rounded-lg' >Web developer</p> 
-                <p className='py-[2px] mt-[2px] bg-[#535353] animated-bt border-[#535353] text-black border px-1 rounded-lg' >Learning DevOps</p>
+                <h6 className='sm:font-semibold sm:text-2xl' >Rajeshwar Singh</h6>
+                <div className='flex text-[12px] gap-3' >
+                <p className='py-[3px] mt-[2px] bg-[#535353] border-[#535353] text-white border px-2 rounded-lg' >Web developer</p> 
+                <p className='py-[3px] mt-[2px] bg-[#535353] animated-bt border-[#535353] text-white border px-2 rounded-lg' >Learning DevOps</p>
                 </div>
             </div>
         </section>
-        <h1 className='mt-5 text-white text-2xl mb-32 sm:text-6xl font-semibold' >Let’s build a  <span className='text-[#08CB00] bg-[#121212] px-2 py-1  rounded-lg' >website</span> <br /> people will remember</h1>
+        <h1 className='mt-5 ml-3 text-white text-2xl mb-32 sm:text-6xl font-semibold' >Let’s build a  <span className='text-[#08CB00] bg-[#121212] px-2 py-1  rounded-lg' >website</span> <br /> people will remember</h1>
         {/* <img src={GreenWavy} className='absolute bottom-0 right-0' alt="" /> */}
        <motion.svg
   id="visual"

@@ -3,7 +3,7 @@
 const Cards = () => {
   return (
     <>
-    <h1 className="text-white text-3xl font-clash" >ON UPDATE --- 🪧</h1>
+    {/* <h1 className="text-white text-3xl font-clash" >ON UPDATE --- 🪧</h1> */}
     <section className="py-10 my-10 rounded-xl pagBg flex [&_h1]:mb-5 justify-between px-10 " >
         
         <section className="" >
