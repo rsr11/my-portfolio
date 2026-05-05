@@ -1,12 +1,12 @@
 // import React from 'react'
-import ProfilePic from "../assets/profilePici.png";
+// import ProfilePic from "../assets/profilePici.png";
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { IoArrowUp } from 'react-icons/io5';
 import { FaFileDownload } from 'react-icons/fa';
-import BitmojiProfile from "../assets/bitmojiProfile.png"
+// import BitmojiProfile from "../assets/bitmojiProfile.png"
 // import GreenWavy from "../assets/wavy-design.svg";
 import {motion} from "motion/react";
-import resumePdf from "../assets/resume_2026.pdf";
+// import resumePdf from "../assets/resume_2026.pdf";
 // import { Link } from "react-router-dom";
 
 
@@ -21,8 +21,8 @@ const HeroSection = () => {
       <section className='flex flex-col sm:flex-col-reverse p-3 pb-1 justify-between'>
       {/* <section></section> */}
       <section className="relative isolate" >
-      <div className="absolute w-[60%] aspect-square -z-10 bg-[#08CB00] blur-xl top-0 right-[50%] translate-x-[50%] rounded-full " ></div>
-      <img src={ProfilePic} className='rounded-full relative z-10 sm:size-[60%] object-contain mx-auto border-4 border-[#08CB00]' alt="" /> 
+      {/* <div className="absolute w-[60%] aspect-square -z-10 bg-[#08CB00] blur-xl top-0 right-[50%] translate-x-[50%] rounded-full " ></div> */}
+      <img src={"images/profilePici.png"} className='rounded-full relative z-10 sm:size-[60%] object-cover mx-auto bordr-4 boder-[#08CB00]' alt="" /> 
       </section>
       <section className='flex gap-3 m-2' >
         <div className='bg-[#535353] text-black hover:bg-white cursor-pointer p-1 rounded-full' > <a href={`https://www.linkedin.com/in/rajeshwarsingh11/`} ><FiLinkedin size={15} /> </a> </div>
@@ -39,7 +39,7 @@ const HeroSection = () => {
         <section className='py-3 font-clash flex sm:mx-0 w-full gap-2'>
             <button className='bg-[#08CB00] sm:text-sm text-black p-1 sm:p-3 size rounded-full rotate-45' > <IoArrowUp size={15} /> </button>
             <button className='px-3 sm:px-4 py-1 sm:py-2 text-[10px] sm:text-sm text-black rounded-xl bg-[#08CB00]' > Let's Talk </button>
-            <button type="button" onClick={()=>{window.open(resumePdf)}} className='px-3 sm:px-4 py-1 sm:py-2 flex items-center sm:text-sm gap-1 text-[10px] rounded-xl bg-[]' > <FaFileDownload /> Resume </button>
+            <button type="button" onClick={()=>{window.open("images/resume_2026.pdf")}} className='px-3 sm:px-4 py-1 sm:py-2 flex items-center sm:text-sm gap-1 text-[10px] rounded-xl bg-[]' > <FaFileDownload /> Resume </button>
         </section>
     </section>     
     </section>
@@ -48,7 +48,7 @@ const HeroSection = () => {
      <section>
         <section className='flex items-center gap-2 text-[white]'>
             {/* <div> */}
-                <img src={BitmojiProfile} className='size-10 sm:size-20 bg-[#121212] rounded-full p-2' alt="" />
+                <img src={"images/bitmojiProfile.png"} className='size-10 sm:size-20 bg-[#121212] rounded-full p-2' alt="" />
             {/* </div> */}
             <div className='text-xs' >
                 <h6 className='sm:font-semibold sm:text-2xl' >Rajeshwar Singh</h6>

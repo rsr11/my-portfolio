@@ -1,8 +1,8 @@
 // import React from 'react'
-import SkillTyroImg from "../assets/SkillTyro_thumnail.png";
+// import SkillTyroImg from "../assets/SkillTyro_thumnail.png";
 import ProjectCard from "./ProjectCard"
-import productrImg from "../assets/ProductrImg.png";
-import FinPocketImg from "../assets/finPocket_Img.png";
+// import productrImg from "../assets/ProductrImg.png";
+// import FinPocketImg from "../assets/finPocket_Img.png";
 
 // import name from "../" 
 
@@ -14,7 +14,7 @@ const Projects = () => {
        <section className="sm:grid sm:grid-cols-2 sm:mt-20" >
        <ProjectCard 
         title="Skill Tyro"
-        imgLink={SkillTyroImg}
+        imgLink={"images/SkillTyro_thumnail.png"}
         techStack={[`HTML`,`CSS`,`PHP`,`JS`]}
         description={"Developed a responsive website for a Hyderabad-based medical education company. Implemented user-friendly UI for course listings and enrollment."}
         gitLink={"https://github.com/rsr11/skill-Tyro"}
@@ -23,7 +23,7 @@ const Projects = () => {
 
         <ProjectCard
           title={"Productr"}
-          imgLink={productrImg}
+          imgLink={"images/ProductrImg.png"}
           gitLink={`https://github.com/rsr11/Productr`}
           projectLink={`http://productrsr.netlify.app/`}
           techStack={[`React.js`,`React-query`,`Cloudnary`,`Node.js`,`Express.js`,`MongoDb`,`Redux`,`JWT`]}
@@ -32,7 +32,7 @@ const Projects = () => {
 
           <ProjectCard
           title={"FinPocket"}
-          imgLink={FinPocketImg}
+          imgLink={"images/finPocket_Img.png"}
           gitLink={`https://github.com/rsr11/FinPocket-backend`}
           techStack={[`React.js`,`React-query`,`Rechart.js`,`Node.js`,`Express.js`,`MongoDb`,`Redux`,`JWT`]}
           description={`Developing a personal finance dashboard to help students and professionals analyze expenses, track monthly

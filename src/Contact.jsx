@@ -1,6 +1,6 @@
 
 const Contact = () => (
-    <section className='mt-40' id='contact' >
+    <section className='mt-40 font-clash' id='contact' >
         {/* <h1 className='text-5xl text-center font-bold mb-16'> */}
             {/* <span className=' after:content-[""] relative after:w-16 after:h-2 after:-bottom-5 after:left-12 after:rounded-md after:absolute after:bg-violet-700 '>Contact</span> */}
         {/* </h1> */}

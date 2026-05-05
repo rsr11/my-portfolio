@@ -19,7 +19,7 @@ const ProjectCard = ({title,techStack, description,imgLink, gitLink, projectLink
             <span className="py-1 border rounded-lg px-2" >PHP</span> */}
            </p>
            <div className="overflow-hidden" >
-            <img src={imgLink} className=" mt-2 w-full" alt="" />
+            <img src={imgLink} className=" mt-2 w-full" alt="img" />
             <p className="mt-2 font-clash" >{description}</p>
             </div>
            <div className="flex gap-5 mt-3 ml-2 text-" >
