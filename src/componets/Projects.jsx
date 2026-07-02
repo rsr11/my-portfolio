@@ -11,7 +11,7 @@ const Projects = () => {
     <section className='text-white' >
        <h1 className='text-center mt-10 text-2xl sm:text-5xl font-tanker line-clamp-4 sm:mt-20 sm:font-semibold flex items-center gap-5 justify-center' >Here Are Some Of My Projects <img src="/images/fire-icon.png" className="object-contain w-20" alt="" /> </h1>
 
-       <section className="sm:grid sm:grid-cols-2 sm:mt-20" >
+       <section className="sm:grid sm:grid-cols-2 gap-y-14 sm:mt-20" >
        <ProjectCard 
         title="Skill Tyro"
         imgLink={"images/SkillTyro_thumnail.png"}
@@ -27,7 +27,7 @@ const Projects = () => {
           gitLink={`https://github.com/rsr11/Productr`}
           projectLink={`http://productrsr.netlify.app/`}
           techStack={[`React.js`,`React-query`,`Cloudnary`,`Node.js`,`Express.js`,`MongoDb`,`Redux`,`JWT`]}
-          description={"Productr is product uploading platfrom for e-commerce site, here you can perform CRUD on your product, switch to upload or not , we authorize the user with OTP verification with the help of Nodemailer and Twilio, And store the images in cloundnary."} 
+          description={"Productr is product uploading platfrom for e-commerce site, here you can perform CRUD on your product, switch to upload or not. , we authorize the user with OTP verification with the help of Nodemailer and Twilio, And store the images in cloundnary."} 
           />
 
           <ProjectCard
@@ -37,6 +37,15 @@ const Projects = () => {
           techStack={[`React.js`,`React-query`,`Rechart.js`,`Node.js`,`Express.js`,`MongoDb`,`Redux`,`JWT`]}
           description={`Developing a personal finance dashboard to help students and professionals analyze expenses, track monthly
 savings, set payment reminders, and view historical data.`}
+          />
+
+          <ProjectCard
+          title={"Leagacy Marble "}
+          imgLink={"images/lm-thumbnail.jpg"}
+          gitLink={`https://github.com/rsr11/legacy-marble-next`}
+          projectLink={`https://legacy-marble.com/`}
+          techStack={[`Next.js`,`Tailwind CSS`,`GSAP`]}
+          description={`A website for a marble company, showcasing their products and services. Implemented smooth animations and responsive design for an engaging user experience.`}
           />
 
         </section>
